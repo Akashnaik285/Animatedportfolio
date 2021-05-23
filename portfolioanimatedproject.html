@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+<link href="stylesheet" href="Style102.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<style>body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #292929;
+    
+}
+.container
+{
+    height: 500px;
+    width: 300px;
+    background-image:linear-gradient(45deg,rgb(15, 102, 160),rgb(0, 153, 255),rgb(255, 56, 255));
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  
+    border-radius: 20px;
+    padding: 20px;
+    transition: transform .2s;
+    margin:0 auto;
+}
+.container:hover
+{
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px #000;
+}
+.container h1{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.container p
+{
+    font-size: 15px;
+
+    text-align: left;
+}
+.container img{
+    margin:0 25%;
+    height:30%;
+    width: 50%;
+    border-radius:50%;
+    transition: transform 0.5s;
+}
+.container img:hover
+{
+    transform:scale(1.1);
+    box-shadow: 5px 5px 5px #000;
+}
+.social
+{
+    
+    margin: 40px 20px;
+    padding:5px 0;
+    background-color: #292929;
+    border-radius: 20px;
+    transition: 1s;
+}
+.social:hover{
+    background-color: rgb(252, 252, 252);
+}
+.social:hover #fb
+{
+    color:rgb(83, 127, 248);
+}
+.social:hover #li
+{
+    color:rgb(83, 127, 248);
+}
+ul
+{
+    list-style: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 40px;
+}
+ul li a{
+    font-size: 30px;
+    color:cadetblue;
+}
+#fb
+{
+    color: #578bf3;
+}
+#insta
+{
+    color: #f01294;
+}
+#li
+{
+    color: #fff;
+}</style>
+<body>
+   
+   
+    
+<div class="container">
+    <img src="https://pbs.twimg.com/profile_images/1323152512229072896/6WLdRt_i_400x400.jpg">
+    <h1>Akash Naik</h1>
+    <p>
+        My self Akash Naik.I'm a self-taught programmer.I like to learn more about computers,emerging technologies and also learn about people who have made a powerful impact in the development of such technologies.I'm Currently pursuing Computer Science Engineering degree from MVJ college of engineering. 
+    </p>
+    <div class="social">
+        <ul>
+            <li><a href="https://www.facebook.com/aakash.naikss/" id="fb"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> </li>
+            <li><a href="https://www.instagram.com/akash.naik.285/?hl=en" id="insta"><i class="fa fa-instagram" aria-hidden="true"></i></a> </li>
+            <li><a href="https://www.linkedin.com/in/akashnaik285/" id="li"><i class="fa fa-linkedin" aria-hidden="true"></i></a> </li>
+        </ul>
+    </div>
+</div>
+
+
+
+</body>
+</html>
